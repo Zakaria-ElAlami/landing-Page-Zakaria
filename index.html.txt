@@ -1,123 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Exclusive Content Access</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background-color: #f9fafb;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(135deg, #1e3c72, #2a5298);
-      color: white;
-      padding: 60px 20px;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 15px;
-    }
-    header p {
-      font-size: 1.2rem;
-      margin-bottom: 25px;
-    }
-    header .btn {
-      background: #ff6b6b;
-      padding: 15px 30px;
-      border: none;
-      border-radius: 8px;
-      color: white;
-      font-size: 1rem;
-      cursor: pointer;
-      text-decoration: none;
-    }
-    header .btn:hover {
-      background: #e04e4e;
-    }
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 60px 20px;
-      max-width: 1200px;
-      margin: auto;
-    }
-    .feature {
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-      text-align: center;
-    }
-    .feature h3 {
-      margin-bottom: 10px;
-      color: #2a5298;
-    }
-    .feature p {
-      font-size: 0.95rem;
-    }
-    .testimonials {
-      background: #f1f5f9;
-      padding: 60px 20px;
-      text-align: center;
-    }
-    .testimonials h2 {
-      margin-bottom: 40px;
-      color: #2a5298;
-    }
-    .testimonial {
-      max-width: 700px;
-      margin: 20px auto;
-      font-style: italic;
-    }
-    footer {
-      background: #1e293b;
-      color: #94a3b8;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unlock Premium Access</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Unlock Exclusive Premium Content</h1>
-    <p>Access hidden content instantly by completing a quick step!</p>
-    <a href="#" class="btn">Unlock Now</a>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1>Unlock Exclusive Content Instantly</h1>
+      <p>Access premium features by completing a quick verification.</p>
+      <a href="#" class="btn">Unlock Now</a>
+    </div>
   </header>
 
+  <!-- Features Section -->
   <section class="features">
-    <div class="feature">
-      <h3>Fast Access</h3>
-      <p>Get instant access to premium files, videos, and more.</p>
-    </div>
-    <div class="feature">
-      <h3>Secure</h3>
-      <p>We use the latest tools to keep your data and content safe.</p>
-    </div>
-    <div class="feature">
-      <h3>Works Anywhere</h3>
-      <p>Access on mobile, tablet, or desktop — no limits.</p>
+    <div class="container">
+      <h2>Why Choose Us?</h2>
+      <div class="grid">
+        <div class="feature">
+          <h3>Fast Access</h3>
+          <p>Unlock content in seconds with a simple step.</p>
+        </div>
+        <div class="feature">
+          <h3>Secure</h3>
+          <p>All verifications are encrypted and safe.</p>
+        </div>
+        <div class="feature">
+          <h3>Mobile Ready</h3>
+          <p>Works seamlessly on any device, anywhere.</p>
+        </div>
+      </div>
     </div>
   </section>
 
+  <!-- Testimonials / Logos -->
   <section class="testimonials">
-    <h2>What Users Are Saying</h2>
-    <div class="testimonial">
-      “This site is amazing, I unlocked premium content in less than a minute!”
-    </div>
-    <div class="testimonial">
-      “Super simple and secure — definitely recommend it.”
+    <div class="container">
+      <h2>Trusted Worldwide</h2>
+      <p>Join thousands of users enjoying exclusive access.</p>
+      <div class="logos">
+        <img src="assets/logo1.png" alt="Logo">
+        <img src="assets/logo2.png" alt="Logo">
+        <img src="assets/logo3.png" alt="Logo">
+      </div>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
-    &copy; 2025 Exclusive Access. All rights reserved.
+    <p>© 2025 UnlockPage. All rights reserved.</p>
   </footer>
 </body>
 </html>
